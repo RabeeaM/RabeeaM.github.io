@@ -557,9 +557,8 @@ hr {
 div.submit-form {
   width: 70%;
   height: 70%;
- border: 2px solid black;
   padding: 5%;
-  margin: 25px;
+  margin: auto;
 }
 
 form.ad-des {
@@ -571,11 +570,22 @@ form.ad-des {
 
 input.adtxtbx {
   width: 100%;
-  padding: 10% 20px;
-  margin: 5px 0;
-  display: inline-block;
+  padding: 20%;
+  margin: 0;
+  display: inline-table;
   border: 1px solid #ccc;
   box-sizing: border-box;
+  float: right;
+
+}
+box.add{
+	background: url(../images/btn-send.png) no-repeat -70px 0;
+	cursor: pointer;
+	height: 60px;
+	width: 100px;
+	border: 0;
+	padding: 0;
+	margin: 0;
 }
 
 button.btnsubmit {
