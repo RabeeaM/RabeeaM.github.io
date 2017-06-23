@@ -38,14 +38,16 @@ img {
 }
 /** Logo **/
 #logo {
-	float: left;
+	float: right;
 	margin-bottom: 20px;
 	margin-left: 49px;
 }
 #teamlogo {
-	float: right;
-	margin-bottom: 20px;
+	float: left;
+	margin-bottom: -5px;
 	margin-left: 49px;
+	top: 150px;
+	position: relative;
 }
 /** Navigation **/
 #navigation {
